@@ -71,6 +71,26 @@ class MainActivity : AppCompatActivity() {
         notificationManager.notify(1, builder.build())
 
     }
+  //  private fun showNotification(){
+    //    var builder =NotificationCompat.Builder(this,CHANNEL_ID)
+      //      .setOngoing(true)
+            // .setStyle( NotificationCompat.BigTextStyle()
+            //  .bigText("This is a large text notification. You can write a long text here to display in the notification. " +
+            // "This will allow users to read the entire message without expanding the notification."));
+   //         .setAutoCancel(true)
+     //       .setWhen(System.currentTimeMillis() + 5000)
+       //     .setStyle(NotificationCompat.BigPictureStyle()
+         //       .bigPicture(BitmapFactory.decodeResource(getResources(), R.drawable.img_1))
+           //     .bigLargeIcon(null))
+            //.setAutoCancel(true)
+      //  val notificationIntent = Intent(this, MainActivity::class.java)
+       // val pendingIntent = PendingIntent.getActivity(this, 0, notificationIntent,
+         //   PendingIntent.FLAG_UPDATE_CURRENT)
+       // builder.setContentIntent(pendingIntent)
+
+       // val notificationManager = getSystemService(Context.NOTIFICATION_SERVICE)as NotificationManager
+        //notificationManager.notify(1,builder.build())
+   // }
     private fun createNotificationChannel(){
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val name = getString(R.string.channels_name)
