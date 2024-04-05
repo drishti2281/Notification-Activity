@@ -3,4 +3,10 @@
     <string name="Show_notification">Show Notification</string>
     <string name="channels_name">channels name</string>
     <string name="description_text">description text</string>
+    <string name="image_notification">Image notification</string>
+    <string name="Send_notification">send notification</string>
+    <string name="Notification_Activity">Notification Activity</string>
+    <string name="Cancel_notification">Cancel notification</string>
+    <string name="large_text_Notification">Large text Notification</string>
+    <string name="Auto_Cancel_After_Sometimes">Auto Cancel After Sometimes</string>
 </resources>
