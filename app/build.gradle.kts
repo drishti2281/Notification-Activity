@@ -50,5 +50,6 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation ("com.github.bumptech.glide:glide:4.16.0")
     implementation("com.google.firebase:firebase-messaging:23.4.1")
+    implementation("com.airbnb.android:lottie:6.4.0")
 
 }

@@ -9,4 +9,9 @@
     <string name="Cancel_notification">Cancel notification</string>
     <string name="large_text_Notification">Large text Notification</string>
     <string name="Auto_Cancel_After_Sometimes">Auto Cancel After Sometimes</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="Click_Notification">Click Notification</string>
+    <string name="generate_notification">Generate Notification</string>
 </resources>

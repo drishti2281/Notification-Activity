@@ -25,6 +25,7 @@ class CloudMsgService : FirebaseMessagingService() {
         var notificationData = message.notification
         print("notification title ${notificationData?.title}")
         print("notification body ${notificationData?.body}")
+        print("notification data ${message.data}")
 
         //notification builder
         val notificationManager: NotificationManager =
@@ -47,8 +48,7 @@ class CloudMsgService : FirebaseMessagingService() {
          .setContentText(notificationData?.body?:"")
         .setPriority(NotificationCompat.PRIORITY_HIGH)
 
-
-         notificationManager.notify(Calendar.getInstance().timeInMillis.toInt(), builder.build())
+        notificationManager.notify(Calendar.getInstance().timeInMillis.toInt(), builder.build())
 
 
     }
